@@ -17,8 +17,8 @@ jobs:
     - name: Build and Test
       run: |
         xcodebuild test \
-        -project Mobility Test.xcodeproj \
-        -scheme Mobility Test \
+        -project "Mobility Test.xcodeproj" \
+        -scheme "Mobility Test" \
         -destination 'platform=iOS Simulator,name=iPhone 14' \
         -sdk iphonesimulator \
         ONLY_ACTIVE_ARCH=YES \
